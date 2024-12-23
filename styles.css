@@ -67,24 +67,3 @@ body {
       font-size: 30px;
     }
   }
-  
-  /* 雪花动画 */
-  .snowflake {
-    position: absolute;
-    font-size: 24px;
-    color: #fff;
-    animation: snowAnimation 10s linear infinite;
-    user-select: none;
-  }
-  
-  @keyframes snowAnimation {
-    0% {
-      opacity: 1;
-      transform: translateY(-100px) rotate(0deg); /* 从屏幕外顶部开始 */
-    }
-    100% {
-      opacity: 0;
-      transform: translateY(100vh) rotate(360deg); /* 一直到屏幕底部 */
-    }
-  }
-  
